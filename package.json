@@ -1,19 +1,34 @@
 {
-  "name": "polymer-3-first-element",
+  "name": "web",
   "version": "3.0.0-pre.12",
   "flat": true,
   "description": "Build your first element with Polymer 3.0!",
   "main": "index.html",
-  "repository": "https://github.com/PolymerLabs/polymer-3-first-element.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolymerLabs/polymer-3-first-element.git"
+  },
   "author": "The Polymer Project Authors",
   "license": "BSD-3-Clause",
   "dependencies": {
     "@polymer/iron-icon": "^3.0.0-pre.12",
     "@polymer/iron-icons": "^3.0.0-pre.12",
     "@polymer/polymer": "^3.0.0-pre.12",
-    "@webcomponents/webcomponentsjs": "^1.0.20"
+    "@webcomponents/webcomponentsjs": "^1.0.20",
+    "user": "0.0.0"
   },
   "resolutions": {
     "@webcomponents/webcomponentsjs": "1.0.20"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/PolymerLabs/polymer-3-first-element/issues"
+  },
+  "homepage": "https://github.com/PolymerLabs/polymer-3-first-element#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webcomponents"
+  ]
 }
